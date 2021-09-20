@@ -20,12 +20,6 @@ public class comparacaoData {
             System.out.println("A data de comparação é anterior a data de nascimento.");
         }
 
-//        boolean isAfter = dataComparacao.after(dataNascimento);
-//        System.out.println("A data de comparação é após a data de nascimento.");
-//
-//        boolean isBefore = dataComparacao.before(dataNascimento);
-//        System.out.println("A data de nascimento é anterior a data de comparação.");
-
     }
 
 }
