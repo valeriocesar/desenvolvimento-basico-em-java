@@ -18,14 +18,12 @@ public class calculoVencimento {
 
         if (emissao.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) {
             emissao.add(Calendar.DATE, 2);
-            System.out.println("Efetue o pagamento até " + data.format(emissao.getTime()));
         }
         else if (emissao.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY) {
             emissao.add(Calendar.DATE, 1);
-            System.out.println("Efetue o pagamento até " + data.format(emissao.getTime()));
-        } else {
-            System.out.println("Efetue o pagamento até " + data.format(emissao.getTime()));
         }
+
+        System.out.println("Efetue o pagamento até " + data.format(emissao.getTime()));
 
     }
 
